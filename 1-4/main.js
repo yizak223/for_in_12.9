@@ -4,6 +4,9 @@ const SAME_CLASS=document.querySelectorAll(".sameClass")
 for (let i = 0; i < SAME_CLASS.length; i++) {
     console.log(SAME_CLASS[i]);
 }
+for (const iterator of SAME_CLASS) {
+    console.log(iterator);
+}
 //2
 const CLASS2=document.querySelectorAll('.t2')
 const BTN=document.querySelectorAll('button')
